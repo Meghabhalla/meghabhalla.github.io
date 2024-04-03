@@ -1,15 +1,35 @@
-
-*{
+*
+{
     margin:0;
     padding:0;
     font-family:verdana;
-  }
+    box-sizing: border-box;
 
-.col-sm-6.img2 {
+  }
+  
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.about-section {
+  margin-top: 20px;
+  padding: 20px;
+}
+p.para {
+  font-size: 16px;
+  margin-top: 23px;
+}
+
+  element.style {
+    width: 50%;
+    height: 506px;
+}
+
+  .img2 {
     padding-left: 0px;
     padding-right: 0px;
 }
-.col-sm-6.img1 {
+.img1 {
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -50,7 +70,7 @@
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 12.5px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -95,129 +115,129 @@
 }
 
 .section {
-	position: relative;
-	height: 100vh;
+  position: relative;
+  height: 100vh;
 }
 
 .section .section-center {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #booking {
-	font-family: 'Source Sans Pro', sans-serif;
-	background-image: url('images/background-2.jpg');
-	background-size: cover;
-	background-position: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url('images/background-2.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .booking-form {
-	background: #fff;
-	-webkit-box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.3);
-	border: 1px solid rgba(60, 64, 101, 0.1);
+  background: #fff;
+  -webkit-box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(60, 64, 101, 0.1);
 }
 
 .booking-form>form .row.no-margin {
-	margin-right: 0px;
-	margin-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .booking-form>form .row.no-margin>[class*="col-"] {
-	padding-right: 0px;
-	padding-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .booking-form .form-header {
-	padding: 15px 10px;
-	height: 110px;
-	line-height: 110px;
-	text-align: center;
+  padding: 15px 10px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
 }
 
 .booking-form .form-header h2 {
-	font-family: 'Alegreya', serif;
-	margin: 0;
-	display: inline-block;
-	font-size: 52px;
-	color: #9a8067;
+  font-family: 'Alegreya', serif;
+  margin: 0;
+  display: inline-block;
+  font-size: 52px;
+  color: #9a8067;
 }
 
 .booking-form .form-group {
-	position: relative;
-	height: 110px;
-	padding: 15px 10px;
-	margin-bottom: 0px;
+  position: relative;
+  height: 110px;
+  padding: 15px 10px;
+  margin-bottom: 0px;
 }
 
 .booking-form .form-control {
-	font-family: 'Alegreya', serif;
-	background-color: transparent;
-	border-radius: 0px;
-	border: none;
-	height: 50px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	padding: 0;
-	font-size: 28px;
-	color: #3c404a;
-	font-weight: 700;
+  font-family: 'Alegreya', serif;
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  height: 50px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 28px;
+  color: #3c404a;
+  font-weight: 700;
 }
 
 .booking-form select.form-control {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .booking-form select.form-control+.select-arrow {
-	position: absolute;
-	right: 0px;
-	bottom: 20px;
-	width: 32px;
-	line-height: 32px;
-	height: 32px;
-	text-align: center;
-	pointer-events: none;
-	color: #818390;
-	font-size: 12px;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  pointer-events: none;
+  color: #818390;
+  font-size: 12px;
 }
 
 .booking-form select.form-control+.select-arrow:after {
-	content: '\279C';
-	display: block;
-	-webkit-transform: rotate(90deg);
-	transform: rotate(90deg);
+  content: '\279C';
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .booking-form .form-label {
-	color: #818390;
-	display: block;
-	font-weight: 400;
-	height: 30px;
-	line-height: 30px;
-	font-size: 14px;
+  color: #818390;
+  display: block;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
 }
 
 .booking-form .form-btn {
-	padding: 15px 10px;
-	height: 110px;
+  padding: 15px 10px;
+  height: 110px;
 }
 
 .booking-form .submit-btn {
-	background: #9a8067;
-	color: #fff;
-	border: none;
-	font-weight: 400;
-	text-transform: uppercase;
-	font-size: 14px;
-	display: block;
-	height: 80px;
-	width: 100%;
+  background: #9a8067;
+  color: #fff;
+  border: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  height: 80px;
+  width: 100%;
 }
 
 /* About Section */
@@ -361,10 +381,7 @@ button:hover {
   margin: auto;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 ul {
   list-style: none;
@@ -474,6 +491,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .col
@@ -484,9 +502,16 @@ ul {
   padding: 15px;
 }
 
+.row.navpage
+{
+
+  margin-right:0px;
+  margin-left:0px;
+}
+
 .testimonial
 {
-  background: #fff;
+  background: gainsboro;
   padding: 30px;
 }
 
@@ -495,6 +520,8 @@ ul {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  display: block;
+  margin: auto;
 }
 
 .name
@@ -502,12 +529,14 @@ ul {
   font-size: 20px;
   text-transform: uppercase;
   margin: 20px 0;
+  text-align: center;
 }
 
 .stars
 {
   color: #f0932b;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 960px)
@@ -531,9 +560,14 @@ ul {
   padding: 90px 0;
   background: #ddd;
 }
-.pic{
+.pic
+{
   height: auto;
-  width:  302px;
+
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 30px;
 }
 .about1{
   width: 1130px;
@@ -543,14 +577,74 @@ ul {
   align-items: center;
   justify-content: space-around;
 }
-.text1{
-  width: 540px;
+@media (max-width:600px) {
+  .navnav > .nav-btn1 {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .navnav> .nav-btn1 > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .navnav > .nav-btn1 > label:hover,.nav  #nav-check:checked ~ .nav-btn1 > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .navnav > .nav-btn1 > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .navnav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .navnav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .navnav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .navnav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
 }
+
+/* Clearfix (clear floats) */
+.row .bann::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .text1 h2{
   font-size: 90px;
   font-weight: 600;
   margin-bottom: 10px;
 
+}
+.subunique
+{
+  font-size: 19px;
+  font-weight: 500;
+}
+.aboutclass
+{
+  font-size: 30px;
+  font-weight: bold;
 }
 .text1 h5{
   font-size: 22px;
@@ -562,8 +656,303 @@ span{
 }
 .text1 p{
   font-size: 18px;
+    font-weight: 500;
   line-height: 25px;
   text-align:justify;
   letter-spacing: 1px;
 }
 
+/* CSS for login form */
+.form-container {
+  margin: 50px auto;
+  padding: 20px;
+  width: 500px;
+  background-color: #efebeb;
+  border-radius: 10px;
+}
+
+.main {
+  text-align: left;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #1bc279;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #0d0d0d;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.wrap {
+  margin-top: 10px;
+}
+
+.center button {
+  /* Optional: Add more styles to the button */
+  padding: 10px 20px;
+  background-color: #d46060;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
+
+button:hover {
+  background-color: #a65562;
+}
+
+p {
+  margin-top: 20px;
+  color: #333;
+}
+
+a {
+  color: #cc5f5f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+}
+
+.price {
+  font-size: 36px;
+}
+
+.price span {
+  font-size: 18px;
+}
+
+.centre-content {
+  text-align: center;
+}
+
+.last-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pay-now-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #f08888;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Card details */
+.card-details {
+  margin-top: 30px;
+}
+
+.card-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card-number-field,
+.date-number-field,
+.cvv-number-field,
+.card-name-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-now-btn {
+  width: 80%;
+  padding: 10px;
+  background-color: #f15a5a;
+  color: #dc8484;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.column-ban {
+  float: left;
+  width: 50%;
+ 
+}
+
+.navnav {
+  height: 70px;
+  width: 100%;
+  background-color: #4d4d4d;
+  padding:8px;
+}
+
+.navnav > .nav-header {
+  display: inline;
+}
+
+.navnav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.navnav > .nav-btn1 {
+  display: none;
+}
+
+.navnav > .nav-links {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.navnav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.navnav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navnav > #nav-check {
+  display: none;
+}
+
+.footer.style
+{
+  width:100%;
+  min-width:1100px;
+  min-height: 5%;
+  display: flex;
+  position: absolute;
+  margin: 30px 0 0 -15px;
+  padding: 10px;
+  color: white;
+
+}
+@media (max-width:600px) {
+
+  .navnav > .nav-btn1 {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .navnav> .nav-btn1 > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .navnav > .nav-btn1 > label:hover,.nav  #nav-check:checked ~ .nav-btn1 > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .navnav > .nav-btn1 > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .container-fluid
+  {
+    padding-left:0px !important;
+    padding-right:0px !important;
+    margin-right:0px !important;
+    margin-left:0px !important ;
+  }
+  .navnav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .navnav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .navnav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .navnav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+/* Clearfix (clear floats) */
+.row .bann::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-sm-6.girl
+{
+  position: inherit !important;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}

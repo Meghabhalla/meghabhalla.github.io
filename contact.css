@@ -80,7 +80,7 @@
   }
   
   .input {
-    width: 100%;
+    width: auto;
     outline: none;
     border: 2px solid #fafafa;
     background: none;
@@ -320,6 +320,8 @@
   
     .text {
       margin: 1rem 0 1.5rem 0;
+      margin-bottom: -8px;
+      font-size: 10px;
     }
   
     .social-media {
